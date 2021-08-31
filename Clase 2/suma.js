@@ -1,4 +1,4 @@
-class myClass{
+class mySum {
     #numb1 = 3
     #numb2 = 2
 
@@ -11,10 +11,9 @@ class myClass{
     }
 
     operaciones = (one, two, operacion) => {
-        return ("El resultado es: " + operacion(one,two));
+        return ("El resultado de la suma es: " + operacion(one,two));
     };
     operacion = (one, two) => one+two;
 }
 
-module.exports = {myClass}
-
+ module.exports = { mySum }
