@@ -33,5 +33,5 @@ app.get('/item-random', (req,res) => {
 })
 
 app.get('/visitas', (req,res) => {
-    res.json({visitas: {items: visitasUno, item: visitasDos}})
+    res.json({visitas: {items: visitasUno, item: visitas}})
 })
