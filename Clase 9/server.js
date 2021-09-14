@@ -42,7 +42,8 @@ router.post('/guardar', (req,res) => {
     let title = req.body.title
     let price = req.body.price
     let thumbnail = req.body.thumbnail
-    let item = new modulo.Product(title, price,thumbnail)
+    let item = new modulo.Product(title, price,thumbnail) 
+    console.log(item)
     item.addProducts()
     item.addId()
     res.json(listProducts)
